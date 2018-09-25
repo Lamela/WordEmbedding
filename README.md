@@ -1,7 +1,6 @@
 # WordEmbedding
 
-## Le but du PAO
+## Les objectifs du PAO sont doubles : 
 
-1. Comparer 4 méthodes de Word Embedding sur les jeux de données en chinois : Word2Vec, Glove, FastText, ELMo. L'objectif principal de cet étape est de comparer les 4 méthodes sur les jeux de données de différentes tailles et de trouver les meilleurs algorithmes correspondent aux jeux de données de différentes tailles. Peut-être sur un jeu de données de taille relativement petite(à définir), le meilleur algorithme est différent que celui de l'état de l'art.
-
-2. Transformer est un des meilleurs modèle dans l'application de Machine translation. Nous proposons d'essayer d'utiliser Self-Attention au lieu de LSTM pour entraîner le Modèle de Langue Bi-directionnel de ELMo. Comparer le avec l'ELMo original sur des tâches mentionnées dans l'ELMo. Nous pouvons d'abord tester cet idée en anglais, si nous obtenons un résultat performant, nous pouvons l'appliquer en corpus chinois.
+1. Comparer les  méthodes de Word Embedding (« plongement de mots » ou « plongement lexical » en français d'après wikipédia)  existantes (notamment Word2Vec, Glove, FastText et ELMo) sur des jeux de données en chinois. Il faudra commencer par trouver des données texteulles en chinois utilisables. Il faudra ensuite proposer de bons critère de comparaison des algorithmes, et faire foncter les algorithme sur les onnées. Il faudra aussi identifier les modèles existants. 
+2. Adapter Transformer (https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html), un des modèles utilisé pour la tradution automatique. L'idée est d'essayer d'utiliser un mécanisme d'auto attention (Self-Attention) à la place des clasiques réseaux de type « long short term memory (LSTM) »  pour entraîner un modèle de language bi-directionnel. Il faudra ensuite comparer l'approche proposée avec l'ELMo original sur 6 differentes tâches utilisée pour l'évaler (https://allennlp.org/elmo). Cette idée sera d'abord testée en anglais puis en chinois, si les résultats le permettent.
