@@ -105,3 +105,6 @@ venv.bak/
 
 # corpus text
 *.txt
+
+# words segmentation result
+*.json
