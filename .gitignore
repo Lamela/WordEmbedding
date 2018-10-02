@@ -108,3 +108,4 @@ venv.bak/
 
 # words segmentation result
 *.json
+*.csv
