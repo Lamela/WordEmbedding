@@ -113,3 +113,8 @@ venv.bak/
 # models trained
 *.bin
 *.vec
+*.model
+*.npy
+
+# swap file
+*.swp
