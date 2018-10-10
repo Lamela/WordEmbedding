@@ -118,3 +118,6 @@ venv.bak/
 
 # swap file
 *.swp
+
+# MAC OS file
+.DS_Store
