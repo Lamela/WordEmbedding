@@ -121,3 +121,6 @@ venv.bak/
 
 # MAC OS file
 .DS_Store
+
+# datasets repository
+/datasets
