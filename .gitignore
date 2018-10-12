@@ -115,6 +115,7 @@ venv.bak/
 *.vec
 *.model
 *.npy
+*_vocab
 
 # swap file
 *.swp
