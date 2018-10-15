@@ -124,7 +124,7 @@ venv.bak/
 .DS_Store
 
 # datasets repository
-datasets
+# datasets
 
 # GloVe source code
 GloVe-1.2/*
