@@ -128,3 +128,6 @@ venv.bak/
 
 # GloVe source code
 GloVe-1.2/*
+
+# .hdf5 files
+*.hdf5
