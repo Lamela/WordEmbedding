@@ -131,3 +131,9 @@ GloVe-1.2/*
 
 # .hdf5 files
 *.hdf5
+
+# checkpoints
+checkpoints*
+
+# tensorboard
+tensorboard*
